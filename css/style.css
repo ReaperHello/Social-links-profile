@@ -1,0 +1,89 @@
+:root {
+  /* Font Size Scale */
+  --fs-1: 0.6875rem;
+  --fs-2: 0.875rem;
+
+  /* Font Weight Scale */
+  --fw-1: 400;
+  --fw-2: 600;
+  --fw-3: 700;
+
+  /* Border Radius Scale */
+  --br-1: 0.5rem;
+
+  /* Spacing Scale */
+  --s-1: 1rem;
+
+  /* ----- Typography ----- */
+  --text-xsm: var(--fs-1);
+  --text-sm: var(--fs-2);
+
+  /* ----- Font Weight ----- */
+
+  /* ----- Border Radius ----- */
+  --border-radius-sm: var(--br-1);
+
+  /* ----- Spacing ----- */
+  --padding-sm: var(--s-1);
+
+  /* ----- Colors ----- */
+  --color-green: hsl(75, 94%, 57%);
+  --color-white: hsl(0, 0%, 100%);
+  --color-grey-700: hsl(0, 0%, 20%);
+  --color-grey-800: hsl(0, 0%, 12%);
+  --color-grey-900: hsl(0, 0%, 8%);
+}
+
+/* ----- CSS Universal ----- */
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: var(--text-sm);
+  font-family: inter, sans-serif;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: var(--color-grey-900);
+}
+
+/* ----- CSS ----- */
+
+.social-links-profile {
+  border-radius: var(--border-radius-sm);
+  padding: var(--padding-sm);
+  color: var(--color-white);
+  background-color: var(--color-grey-700);
+}
+
+.social-links-img {
+  border-radius: var(--border-radius-sm);
+  width: 100%;
+}
+
+.social-links-h1 {
+}
+
+.social-links-h2 {
+  color: var(--color-green);
+}
+
+.social-links-list {
+  list-style: none;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 0;
+  font-size: var(--text-xsm);
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
