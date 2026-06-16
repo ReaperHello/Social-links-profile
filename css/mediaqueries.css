@@ -1,0 +1,22 @@
+@media (max-width: 24rem) {
+  :root {
+    /* Font Size Scale */
+    --fs-1: 0.6875rem;
+    --fs-2: 0.8rem;
+    --fs-3: 0.85rem;
+    --fs-4: 0.95rem;
+    --fs-5: 1.45rem;
+
+    /* Spacing Scale */
+    --s-1: 0.15rem;
+    --s-2: 0.4rem;
+    --s-3: 0.7rem;
+    --s-4: 0.9rem;
+    --s-5: 1.4rem;
+    --s-6: 2rem;
+    --s-7: 5.4rem;
+
+    /* Spacing */
+    --padding-sm: var(--s-5);
+  }
+}
