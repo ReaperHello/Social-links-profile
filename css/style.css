@@ -135,6 +135,12 @@ body {
   background-color: var(--color-grey-700);
 }
 
+.social-links-list li:hover {
+  cursor: pointer;
+  color: var(--color-grey-900);
+  background-color: var(--color-green);
+}
+
 .attribution {
   position: absolute;
   bottom: 0;
